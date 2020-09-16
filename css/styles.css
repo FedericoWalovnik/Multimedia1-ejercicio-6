@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.imagen {
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  transform: translateY(-50%);
+  height: 500px;
+  width: auto;
+}
+
+.logo {
+  position: absolute;
+  bottom: 7%;
+  right: 5%;
+  height: 70px;
+}
+
+.linea1 {
+  position: absolute;
+  top: 30%;
+  background-color: white;
+  height: 37px;
+  width: 100vw;
+  z-index: -1;
+}
+
+.linea2 {
+  position: absolute;
+  top: 40%;
+  background-color: white;
+  height: 37px;
+  width: 100vw;
+  z-index: 1;
+}
+
+.linea3 {
+  position: absolute;
+  top: 50%;
+  background-color: white;
+  height: 37px;
+  width: 100vw;
+  z-index: -1;
+}
